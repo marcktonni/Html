@@ -1,0 +1,59 @@
+body{
+	background : black;
+	color: white;
+}
+
+a{ /*this is text of links*/
+	color: gray;
+	text-decoration: none;
+	t
+}
+       /*this is background and text of the links, when you select*/
+a:hover{
+	color: black;
+	background: white;
+}
+/*poder cambiar el fondo cuando se selecciona y tambien el texto*/
+.greenlink: hover{
+	color: green;
+	background: gray;
+}
+
+h1 { font-family: "Times new roman" serif;
+	font-size: 100pt;
+}
+/*it is as function*/
+.indent{
+	margin-left: 10px;
+}
+
+.gap_below{
+	margin-bottom: 25px;
+}
+
+
+@media (min-width: 500px){
+	body{
+		background: red;	
+	}
+	.responsive{
+		display: inline-block;
+		width: 200px;
+		border: 1px solid white
+	}
+}
+
+@media (min-width: 1000px){
+	body{
+		background: green;
+	}
+	.responsive{
+	 display: inline-block;
+		width: 500px;
+		border: 1px solid white
+	}
+}
+/* use this to put borders around things*/
+.thin_border{
+	border: 1px solid white
+}
